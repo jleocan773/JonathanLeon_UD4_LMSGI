@@ -1,0 +1,11 @@
+<!ELEMENT BDsms (sms*)>
+<!ELEMENT sms (telefono,fecha,hora,mensaje,destinatario,remitente,abierto,enviadodesde,coste)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT abierto (#PCDATA)>
+<!ELEMENT enviadodesde (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>

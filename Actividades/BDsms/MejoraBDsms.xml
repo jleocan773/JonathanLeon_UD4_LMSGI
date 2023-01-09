@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE BDsms SYSTEM "MejoraBDsms.dtd">
+<BDsms>
+	<sms>
+		<telefono>589 83 88 62</telefono>
+		<fecha>09/1/2023</fecha>
+		<hora>14:10</hora>
+		<mensaje>Voy a salir ya, cuando llegue a tu casa te hago una perdida para que bajes</mensaje>
+		<destinatario>Manuel Gómez Mendoza</destinatario>
+		<remitente>Jonathan León Canto</remitente>
+		<abierto>Sí</abierto>
+		<enviadodesde>Xiaomi Poco x3 Pro</enviadodesde>
+		<coste>0,09€</coste>
+	</sms>
+	<sms>
+		<telefono>966 08 14 82</telefono>
+		<fecha>18/12/2022</fecha>
+		<hora>11:10</hora>
+		<mensaje>¿Al final donde vamos a quedar para la cena de navidad?</mensaje>
+		<destinatario>Isabel Sanchéz Muñoz</destinatario>
+		<remitente>Daniel Sanchez Muñoz</remitente>
+		<abierto>No</abierto>
+		<enviadodesde>Oppo Find X5 Pro</enviadodesde>
+		<coste>0,09€</coste>
+	</sms>
+	<sms>
+		<telefono>722 21 28 38</telefono>
+		<fecha>11/11/2022</fecha>
+		<hora>11:10</hora>
+		<mensaje>Le mandamos este SMS para comunicar que tiene que pagar 2 facturas atrasadas</mensaje>
+		<destinatario>Jose Manuel Calleja Leruel</destinatario>
+		<remitente>Endesa, S. A.</remitente>
+		<abierto>No</abierto>
+		<enviadodesde>Iphone 11</enviadodesde>
+		<coste>0,09€</coste>
+	</sms>
+</BDsms>

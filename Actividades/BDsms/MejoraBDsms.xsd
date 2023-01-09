@@ -14,6 +14,11 @@
 				<xs:element ref="fecha" />
 				<xs:element ref="hora" />
 				<xs:element ref="mensaje" />
+				<xs:element ref="destinatario" />
+				<xs:element ref="remitente" />
+				<xs:element ref="abierto" />
+				<xs:element ref="enviadodesde" />
+				<xs:element ref="coste" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -21,4 +26,9 @@
 	<xs:element name="fecha" type="xs:string" />
 	<xs:element name="hora" type="xs:string" />
 	<xs:element name="mensaje" type="xs:string" />
+	<xs:element name="destinatario" type="xs:string" />
+	<xs:element name="remitente" type="xs:string" />
+	<xs:element name="abierto" type="xs:string" />
+	<xs:element name="enviadodesde" type="xs:string" />
+	<xs:element name="coste" type="xs:string" />
 </xs:schema>
