@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+<libro id="1">
+    <autores>
+        <autor>
+            <nombre>Miguel</nombre>
+            <apellido1>De Cervantes</apellido1>
+            <apellido2>Saavedra></apellido2>
+        </autor>
+    </autores>
+    <genero>Sátira, Épica, Caballería</genero>
+    <idioma-original>Español</idioma-original>
+    <titulo>Don Quijote de la Mancha</titulo>
+    <editorial>Imprenta de Juan de la Cuesta</editorial>
+    <ISBN>9780936388878</ISBN>
+    <fechaPublicacion>1605</fechaPublicacion>
+</libro>
+<libro id="2">
+    <autores>
+        <autor>
+            <nombre>Charles John</nombre>
+            <apellido1>Huffam</apellido1>
+            <apellido2>Dickens</apellido2>
+        </autor>
+    </autores>
+    <genero>Novelas, Novelas Históricas</genero>
+    <idioma-original>Inglés</idioma-original>
+    <titulo>Historia de dos ciudades</titulo>
+    <editorial>Chapman &amp; Hall</editorial>
+    <ISBN>9780140430547</ISBN>
+    <fechaPublicacion>1859</fechaPublicacion>
+</libro>
+<libro id="3">
+    <autores>
+        <autor>
+            <nombre>El Señor de los Anillos</nombre>
+            <apellido1>John Ronald</apellido1>
+            <apellido2>Reuel Tolkien</apellido2>
+        </autor>
+    </autores>
+    <genero>Literatura Fantástica, Aventuras</genero>
+    <idioma-original>Inglés</idioma-original>
+    <titulo>El Señor de los
+            Anillos</titulo>
+    <editorial>George Allen &amp; Unwin HarperCollins</editorial>
+    <ISBN>9788845292613</ISBN>
+    <fechaPublicacion>
+            1954</fechaPublicacion>
+</libro>
+<libro id="4">
+    <autores>
+        <autor>
+            <nombre>Joanne </nombre>
+            <apellido1>Kathleen </apellido1>
+            <apellido2>Rowling</apellido2>
+        </autor>
+    </autores>
+    <genero>Fantasía, Magia</genero>
+    <idioma-original>Inglés</idioma-original>
+    <titulo>Harry Potter y la piedra filosofal</titulo>
+    <editorial>Bloomsbury</editorial>
+    <ISBN>9788869183157</ISBN>
+    <fechaPublicacion>1997</fechaPublicacion>
+</libro>
+<libro id="5">
+    <autores>
+        <autor>
+            <nombre>Antoine Jean-Baptiste</nombre>
+            <apellido1>Marie Roger</apellido1>
+            <apellido2>de Saint-Exupéry</apellido2>
+        </autor>
+    </autores>
+    <genero>Aventura, Infantil, Fábula</genero>
+    <idioma-original>Francés</idioma-original>
+    <titulo>El principito</titulo>
+    <editorial>Éditions Gallimard</editorial>
+    <ISBN>9783140464079</ISBN>
+    <fechaPublicacion>1943</fechaPublicacion>
+</libro>
+<libro id="6">
+    <autores>
+        <autor>
+            <nombre>John Ronald</nombre>
+            <apellido1>Reuld</apellido1>
+            <apellido2>Tolkien</apellido2>
+        </autor>
+    </autores>
+    <genero>Literatura Fantástica, Aventuras</genero>
+    <idioma-original>Inglés</idioma-original>
+    <titulo>El hobbit</titulo>
+    <editorial>George Allen &amp; Unwin HarperCollins</editorial>
+    <ISBN>9780044403371</ISBN>
+    <fechaPublicacion>1937</fechaPublicacion>
+</libro>
+<libro id="7">
+    <autores>
+        <autor>
+            <nombre>Cao</nombre>
+            <apellido1>Xueqin</apellido1>
+            <apellido2></apellido2>
+        </autor>
+    </autores>
+    <genero>Novela, Saga Familiar</genero>
+    <idioma-original>Chino</idioma-original>
+    <titulo>Sueño en el pabellón rojo</titulo>
+    <editorial>Galaxia Gutenberg</editorial>
+    <ISBN>9781616120351</ISBN>
+    <fechaPublicacion>1759–1791</fechaPublicacion>
+</libro>
+<libro id="8">
+    <autores>
+        <autor>
+            <nombre>Jiang</nombre>
+            <apellido1>Zemin</apellido1>
+            <apellido2></apellido2>
+        </autor>
+    </autores>
+    <genero>Política</genero>
+    <idioma-original>Chino</idioma-original>
+    <titulo>Triple representatividad</titulo>
+    <editorial>Templando el Acero</editorial>
+    <ISBN>9783847368533</ISBN>
+    <fechaPublicacion>2001</fechaPublicacion>
+</libro>
+<libro id="9">
+    <autores>
+        <autor>
+            <nombre>Agatha Mary</nombre>
+            <apellido1>Clarissa</apellido1>
+            <apellido2>Miller</apellido2>
+        </autor>
+    </autores>
+    <genero>Misterio, Detectivesca, Novelas</genero>
+    <idioma-original>Inglés</idioma-original>
+    <titulo>Diez negritos</titulo>
+    <editorial>Collins Crime Club+</editorial>
+    <ISBN>9788467045390</ISBN>
+    <fechaPublicacion>1939</fechaPublicacion>
+</libro>
+<libro id="10">
+    <autores>
+        <autor>
+            <nombre>Charles </nombre>
+            <apellido1>Lutwidge </apellido1>
+            <apellido2>Dodgson </apellido2>
+        </autor>
+    </autores>
+    <genero>Fantasía, Aventura</genero>
+    <idioma-original>Inglés</idioma-original>
+    <titulo>Las aventuras de Alicia en el país de las maravillas</titulo>
+    <editorial>Macmillan Publishers</editorial>
+    <ISBN>9780194229647</ISBN>
+    <fechaPublicacion>1865</fechaPublicacion>
+</libro>
+<libro id="11">
+    <autores>
+        <autor>
+            <nombre>Dolores </nombre>
+            <apellido1>Redondo </apellido1>
+            <apellido2>García </apellido2>
+        </autor>
+    </autores>
+    <genero>Aventura, Misterio</genero>
+    <idioma-original>Español</idioma-original>
+    <titulo>Esperando al Diluvio</titulo>
+    <editorial>Casa del Libro</editorial>
+    <ISBN>9788730480866</ISBN>
+    <fechaPublicacion>2022</fechaPublicacion>
+</libro>
+<libro id="12">
+    <autores>
+        <autor>
+            <nombre>Luz </nombre>
+            <apellido1>Gabas </apellido1>
+            <apellido2>Perez </apellido2>
+        </autor>
+    </autores>
+    <genero>Fantasía, Aventura</genero>
+    <idioma-original>Español</idioma-original>
+    <titulo>Lejos de Luisiana</titulo>
+    <editorial>Casa del Libro</editorial>
+    <ISBN>9789826497522</ISBN>
+    <fechaPublicacion>2022</fechaPublicacion>
+</libro>
+<libro id="13">
+    <autores>
+        <autor>
+            <nombre>Juan </nombre>
+            <apellido1>Gomez </apellido1>
+            <apellido2>Jurado </apellido2>
+        </autor>
+    </autores>
+    <genero>Crimen, Mafia</genero>
+    <idioma-original>Español</idioma-original>
+    <titulo>Todo Arde</titulo>
+    <editorial>Casa del Libro</editorial>
+    <ISBN>9789218026293</ISBN>
+    <fechaPublicacion>2022</fechaPublicacion>
+</libro>
+<libro id="14">
+    <autores>
+        <autor>
+            <nombre>Arturo </nombre>
+            <apellido1>Perez </apellido1>
+            <apellido2>Reverte </apellido2>
+        </autor>
+    </autores>
+    <genero>Guerra, Histórico</genero>
+    <idioma-original>Español</idioma-original>
+    <titulo>Revolución</titulo>
+    <editorial>Casa del Libro</editorial>
+    <ISBN>9787434788322</ISBN>
+    <fechaPublicacion>2022</fechaPublicacion>
+</libro>
+<libro id="15">
+    <autores>
+        <autor>
+            <nombre>Almudena </nombre>
+            <apellido1>Grandes </apellido1>
+            <apellido2>Rioja </apellido2>
+        </autor>
+    </autores>
+    <genero>Novela, Contemporánea</genero>
+    <idioma-original>Español</idioma-original>
+    <titulo>Todo va a Mejorar</titulo>
+    <editorial>Casa del Libro</editorial>
+    <ISBN>9784290637665</ISBN>
+    <fechaPublicacion>2022</fechaPublicacion>
+</libro>
+</libreria>
