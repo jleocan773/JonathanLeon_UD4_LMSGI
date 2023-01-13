@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "Biblioteca.dtd.">
 <libreria>
 <libro id="1">
     <autores>
@@ -151,80 +152,5 @@
     <editorial>Macmillan Publishers</editorial>
     <ISBN>9780194229647</ISBN>
     <fechaPublicacion>1865</fechaPublicacion>
-</libro>
-<libro id="11">
-    <autores>
-        <autor>
-            <nombre>Dolores </nombre>
-            <apellido1>Redondo </apellido1>
-            <apellido2>García </apellido2>
-        </autor>
-    </autores>
-    <genero>Aventura, Misterio</genero>
-    <idioma-original>Español</idioma-original>
-    <titulo>Esperando al Diluvio</titulo>
-    <editorial>Casa del Libro</editorial>
-    <ISBN>9788730480866</ISBN>
-    <fechaPublicacion>2022</fechaPublicacion>
-</libro>
-<libro id="12">
-    <autores>
-        <autor>
-            <nombre>Luz </nombre>
-            <apellido1>Gabas </apellido1>
-            <apellido2>Perez </apellido2>
-        </autor>
-    </autores>
-    <genero>Fantasía, Aventura</genero>
-    <idioma-original>Español</idioma-original>
-    <titulo>Lejos de Luisiana</titulo>
-    <editorial>Casa del Libro</editorial>
-    <ISBN>9789826497522</ISBN>
-    <fechaPublicacion>2022</fechaPublicacion>
-</libro>
-<libro id="13">
-    <autores>
-        <autor>
-            <nombre>Juan </nombre>
-            <apellido1>Gomez </apellido1>
-            <apellido2>Jurado </apellido2>
-        </autor>
-    </autores>
-    <genero>Crimen, Mafia</genero>
-    <idioma-original>Español</idioma-original>
-    <titulo>Todo Arde</titulo>
-    <editorial>Casa del Libro</editorial>
-    <ISBN>9789218026293</ISBN>
-    <fechaPublicacion>2022</fechaPublicacion>
-</libro>
-<libro id="14">
-    <autores>
-        <autor>
-            <nombre>Arturo </nombre>
-            <apellido1>Perez </apellido1>
-            <apellido2>Reverte </apellido2>
-        </autor>
-    </autores>
-    <genero>Guerra, Histórico</genero>
-    <idioma-original>Español</idioma-original>
-    <titulo>Revolución</titulo>
-    <editorial>Casa del Libro</editorial>
-    <ISBN>9787434788322</ISBN>
-    <fechaPublicacion>2022</fechaPublicacion>
-</libro>
-<libro id="15">
-    <autores>
-        <autor>
-            <nombre>Almudena </nombre>
-            <apellido1>Grandes </apellido1>
-            <apellido2>Rioja </apellido2>
-        </autor>
-    </autores>
-    <genero>Novela, Contemporánea</genero>
-    <idioma-original>Español</idioma-original>
-    <titulo>Todo va a Mejorar</titulo>
-    <editorial>Casa del Libro</editorial>
-    <ISBN>9784290637665</ISBN>
-    <fechaPublicacion>2022</fechaPublicacion>
 </libro>
 </libreria>
