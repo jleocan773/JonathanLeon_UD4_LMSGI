@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "concesionario.dtd.">
+<concesionario>
+    <coche>
+        <cod_coche>1</cod_coche>
+        <marca>Audi</marca>
+        <modelo>Audi RS 3</modelo>
+        <matricula>IN RS 3307</matricula>
+        <potencia>400</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>2</cod_coche>
+        <marca>Toyota</marca>
+        <modelo>Toyota Aygo X Cross</modelo>
+        <matricula>s 2238 BCG</matricula>
+        <potencia>72</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>3</cod_coche>
+        <marca>Peugeot</marca>
+        <modelo>Peugeot 308 SW</modelo>
+        <matricula>GG PT 399</matricula>
+        <potencia>225</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>4</cod_coche>
+        <marca>Honda</marca>
+        <modelo>Honda Civic</modelo>
+        <matricula>F H 2619</matricula>
+        <potencia>184</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>5</cod_coche>
+        <marca>Mercedes</marca>
+        <modelo>Mercedes EQE</modelo>
+        <matricula>S EQ 3301E</matricula>
+        <potencia>245</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>6</cod_coche>
+        <marca>Kia Motors</marca>
+        <modelo>Kia EV6 GT</modelo>
+        <matricula>F GT 604E</matricula>
+        <potencia>245</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>7</cod_coche>
+        <marca>Citroen</marca>
+        <modelo>Citroën C4 X</modelo>
+        <matricula>VM 080 VX</matricula>
+        <potencia>102</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>8</cod_coche>
+        <marca>Volvo</marca>
+        <modelo>Polestar 2</modelo>
+        <matricula>Y XA 2121G</matricula>
+        <potencia>456</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>9</cod_coche>
+        <marca>Peugeot</marca>
+        <modelo>Peugeot 408 EQE</modelo>
+        <matricula>X SY 1812A</matricula>
+        <potencia>180</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <cod_coche>10</cod_coche>
+        <marca>Toyota</marca>
+        <modelo>Toyota bZ4X</modelo>
+        <matricula>F KE 9993E</matricula>
+        <potencia>245</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+</concesionario>

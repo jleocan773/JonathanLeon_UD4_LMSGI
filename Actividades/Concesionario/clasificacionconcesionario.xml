@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "clasificacionconcesionario.dtd.">
+<concesionario>
+    <gasolina>
+        <coche>
+            <cod_coche>1</cod_coche>
+            <marca>BMW</marca>
+            <modelo>BMW Serie 2</modelo>
+            <matricula>2153 QLT</matricula>
+            <potencia>460</potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+        <coche>
+            <cod_coche>2</cod_coche>
+            <marca>Ford</marca>
+            <modelo>Ford Fiesta</modelo>
+            <matricula>9983 CKL</matricula>
+            <potencia>200 </potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+        <coche>
+            <cod_coche>3</cod_coche>
+            <marca>Mercedes</marca>
+            <modelo>Mercedes-Benz Clase C</modelo>
+            <matricula>9315 CJM</matricula>
+            <potencia>258</potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+    </gasolina>
+    <hibrido>
+        <coche>
+            <cod_coche>4</cod_coche>
+            <marca>Toyota</marca>
+            <modelo>Toyota Yaris Hybrid</modelo>
+            <matricula>8320 LJG</matricula>
+            <potencia>116</potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+        <coche>
+            <cod_coche>5</cod_coche>
+            <marca>Kia Motors</marca>
+            <modelo>Kia Niro HEV</modelo>
+            <matricula>0327 BSK</matricula>
+            <potencia>141</potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+        <coche>
+            <cod_coche>6</cod_coche>
+            <marca>Renault</marca>
+            <modelo>Renault Clio E-TECH</modelo>
+            <matricula>5259 CVV</matricula>
+            <potencia>140</potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+    </hibrido>
+    <electrico>
+        <coche>
+            <cod_coche>7</cod_coche>
+            <marca>Fiat</marca>
+            <modelo>Fiat 500e Cabrio eléctrico</modelo>
+            <matricula>0213 RJJ</matricula>
+            <potencia>95</potencia>
+            <plazas>2</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+        <coche>
+            <cod_coche>8</cod_coche>
+            <marca>Volkswagen </marca>
+            <modelo>Volkswagen ID.3</modelo>
+            <matricula>2079 IED</matricula>
+            <potencia>204</potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+        <coche>
+            <cod_coche>9</cod_coche>
+            <marca>BMW</marca>
+            <modelo>BMW iX3 eléctrico</modelo>
+            <matricula>8788 CLX</matricula>
+            <potencia>286</potencia>
+            <plazas>5</plazas>
+            <num_puertas>4</num_puertas>
+        </coche>
+    </electrico>
+</concesionario>
