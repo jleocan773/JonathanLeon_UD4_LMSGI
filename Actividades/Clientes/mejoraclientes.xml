@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "clientes.dtd">
+<clientes>
+    <cliente>
+        <sede_alta>
+            <sede_direccion></sede_direccion>
+            <cod_sede>X2345678</cod_sede>
+            <empleado_alta></empleado_alta>
+            <fecha_alta></fecha_alta>
+            <descripcion_cliente></descripcion_cliente>
+        </sede_alta>
+        <cliente_direccion></cliente_direccion>
+        <cod_cliente></cod_cliente>
+        <num_viviendas></num_viviendas>
+        <coste_viviendas></coste_viviendas>
+        <resumen_viviendas></resumen_viviendas>
+        <plazo></plazo>
+    </cliente>
+</clientes>

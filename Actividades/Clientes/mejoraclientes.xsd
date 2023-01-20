@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="clientes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="cliente" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cliente">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="sede_alta" />
+				<xs:element ref="cliente_direccion" />
+				<xs:element ref="cod_cliente" />
+				<xs:element ref="num_viviendas" />
+				<xs:element ref="coste_viviendas" />
+				<xs:element ref="resumen_viviendas" />
+				<xs:element ref="plazo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="sede_alta">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="sede_direccion" />
+				<xs:element name="cod_sede">
+   					<xs:simpleType>
+      					<xs:restriction base="xs:string">
+         				<xs:length value="8"/>
+						<xs:pattern value="[A-Z].*"/>
+      					</xs:restriction>
+   					</xs:simpleType>
+				</xs:element>
+				<xs:element ref="empleado_alta" />
+				<xs:element ref="fecha_alta" />
+				<xs:element name = "descripcion_cliente">
+   					<xs:simpleType>
+      					<xs:restriction base = "xs:string">
+         					<xs:enumeration value = "Solvente"/>
+         					<xs:enumeration value = "Insolvente"/>
+      					</xs:restriction>
+   					</xs:simpleType>
+				</xs:element>		
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="sede_direccion" type="xs:string" />
+	<xs:element name="cod_sede" type="xs:string" />
+	<xs:element name="empleado_alta" type="xs:string" />
+	<xs:element name="fecha_alta" type="xs:string" />
+	<xs:element name="descripcion_cliente" type="xs:string" />
+	<xs:element name="cliente_direccion" type="xs:string" />
+	<xs:element name="cod_cliente" type="xs:string" />
+	<xs:element name="num_viviendas" type="xs:string" />
+	<xs:element name="coste_viviendas" type="xs:string" />
+	<xs:element name="resumen_viviendas" type="xs:string" />
+	<xs:element name="plazo" type="xs:string" />
+</xs:schema>

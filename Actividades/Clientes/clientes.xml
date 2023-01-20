@@ -1,0 +1,13 @@
+<sede>
+	<cod_sede></cod_sede>
+	<direccion></direccion>
+    <empleado_alta></empleado_alta>
+    <fecha_alta></fecha_alta>
+    <descripcion_cliente></descripcion_cliente>
+    <cliente>
+            <num_viviendas></num_viviendas>
+            <coste></coste>
+            <resumen></resumen>
+            <plazos></plazos>
+    </cliente> 
+</sede>
