@@ -1,0 +1,61 @@
+<sede>
+	<cod_sede>A1234567</cod_sede>
+	<direccion>Ubrique (Cádiz) Calle Calvario nº12</direccion>
+    <empleado_alta>Francisco Gutierrez Hernández</empleado_alta>
+    <fecha_alta>2023-01-23</fecha_alta>
+    <cliente cod_cliente="ABC-123">
+            <num_viviendas>1</num_viviendas>
+            <coste>15000</coste>
+            <resumen>Casa en muy buen estado</resumen>
+            <plazos>2023-01-23</plazos>
+            <descripcion_cliente>Solvente</descripcion_cliente>
+    </cliente> 
+
+	<cod_sede>B8912345</cod_sede>
+	<direccion>Valladolid (Valladolid) Avenida de Gijón nº27</direccion>
+    <empleado_alta>María del Mar Gutierrez Sanchez</empleado_alta>
+    <fecha_alta>2021-02-11</fecha_alta>
+    <cliente cod_cliente="DEF-456">
+            <num_viviendas>3</num_viviendas>
+            <coste>35000</coste>
+            <resumen>1ªCasa: Buen Estado; 2ªCasa: Estado Aceptable</resumen>
+            <plazos>2021-03-23</plazos>
+            <descripcion_cliente>Solvente</descripcion_cliente>
+    </cliente> 
+
+	<cod_sede>C6789123</cod_sede>
+	<direccion>Ronda (Cádiz) Calle la Bola nº 11</direccion>
+    <empleado_alta>Jose Luis Pérez Coronil</empleado_alta>
+    <fecha_alta>2020-07-29</fecha_alta>
+    <cliente cod_cliente="GHI-789">
+            <num_viviendas>5</num_viviendas>
+            <coste>95000</coste>
+            <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+            <plazos>2022-10-10</plazos>
+            <descripcion_cliente>Insolvente</descripcion_cliente>
+    </cliente> 
+
+	<cod_sede>A1234567</cod_sede>
+	<direccion>Calle Calvario nº12</direccion>
+    <empleado_alta>Francisco</empleado_alta>
+    <fecha_alta>2023-01-23</fecha_alta>
+    <cliente cod_cliente="ABC-123">
+            <num_viviendas>1</num_viviendas>
+            <coste>15000</coste>
+            <resumen>Casa en muy buen estado</resumen>
+            <plazos>2023-01-23</plazos>
+            <descripcion_cliente>Solvente</descripcion_cliente>
+    </cliente> 
+
+	<cod_sede>A1234567</cod_sede>
+	<direccion>Calle Calvario nº12</direccion>
+    <empleado_alta>Francisco</empleado_alta>
+    <fecha_alta>2023-01-23</fecha_alta>
+    <cliente cod_cliente="ABC-123">
+            <num_viviendas>1</num_viviendas>
+            <coste>15000</coste>
+            <resumen>Casa en muy buen estado</resumen>
+            <plazos>2023-01-23</plazos>
+            <descripcion_cliente>Solvente</descripcion_cliente>
+    </cliente> 
+</sede>
