@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE practicas SYSTEM "Practicas.dtd">
+
+<practicas>
+
+    <alumno>
+        <nif>72778343H</nif>
+        <resultado>Apto</resultado>
+        <observaciones>
+            <anhos>18</anhos>
+            <poblacion>Ubrique</poblacion>
+        </observaciones>
+        <ip>79.155.209.116</ip>
+    </alumno>
+
+    <alumno>
+        <nif>71559009Y</nif>
+        <resultado>Apto</resultado>
+        <mac>24:6f:f3:da:2b:6a</mac>
+    </alumno>
+
+    <alumno>
+        <nif>77078496E</nif>
+        <resultado>No apto</resultado>
+        <mac>01:be:7a:dc:12:6a</mac>
+    </alumno>
+
+    <alumno>
+        <nif>76091638W</nif>
+        <resultado>Apto</resultado>
+        <observaciones>
+            <anhos>20</anhos>
+            <poblacion>Jerez de la Frontera</poblacion>
+        </observaciones>
+        <ip>93.21.57.100</ip>
+    </alumno>
+
+    <alumno>
+        <nif>84506298C</nif>
+        <resultado>No apto</resultado>
+        <observaciones>
+            <anhos>23</anhos>
+            <poblacion>El Bosque</poblacion>
+        </observaciones>
+        <ip>160.210.73.89</ip>
+    </alumno>
+
+</practicas>
