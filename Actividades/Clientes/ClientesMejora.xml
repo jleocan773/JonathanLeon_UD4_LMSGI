@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "ClientesMejora.dtd">
+
+<clientes>
+    <sede cod_sede="A1234567">
+        <direccion>Ubrique (Cádiz) Calle Calvario nº12</direccion>
+        <empleado_alta>Francisco Gutierrez Hernández</empleado_alta>
+        <fecha_alta>2023-01-23</fecha_alta>
+        <cliente cod_cliente="ABC-123">
+            <num_viviendas>1</num_viviendas>
+            <vivienda id="001">
+                <coste>2500</coste>
+                <resumen>Casa en muy buen estado</resumen>
+                <plazos>2</plazos>
+            </vivienda>
+            <descripcion_cliente>Solvente</descripcion_cliente>
+    </cliente>
+    </sede>
+
+    <sede cod_sede="B8912345">
+        <direccion>Valladolid (Valladolid) Avenida de Gijón nº27</direccion>
+        <empleado_alta>María del Mar Gutierrez Sanchez</empleado_alta>
+        <fecha_alta>2021-02-11</fecha_alta>
+        <cliente cod_cliente="DEF-456">
+            <num_viviendas>3</num_viviendas>
+            <vivienda id="002">
+                <coste>35000</coste>
+                <resumen>1ªCasa: Buen Estado; </resumen>
+                <plazos>12</plazos>        
+            </vivienda>
+            <vivienda id="003">
+                <coste>5000</coste>
+                <resumen>2ªCasa: Estado Aceptable</resumen>
+                <plazos>1</plazos>        
+            </vivienda>
+            <vivienda id="004">
+                <coste>12000</coste>
+                <resumen>3ªCasa: Estado Impecable</resumen>
+                <plazos>1</plazos>        
+            </vivienda>
+            <descripcion_cliente>Insolvente</descripcion_cliente>
+        </cliente>
+    </sede>
+
+    <sede cod_sede="C6789123">
+        <direccion>Ronda (Cádiz) Calle la Bola nº 11</direccion>
+        <empleado_alta>Jose Luis Pérez Coronil</empleado_alta>
+        <fecha_alta>2020-07-29</fecha_alta>
+        <cliente cod_cliente="GHI-789">
+            <num_viviendas>2</num_viviendas>
+            <vivienda id="005">
+                <coste>150000</coste>
+                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+                <plazos>9</plazos>
+            </vivienda>
+            <vivienda id="006">
+                <coste>95000</coste>
+                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+                <plazos>4</plazos>
+            </vivienda>
+            <descripcion_cliente>Solvente</descripcion_cliente>
+        </cliente>
+    </sede>
+
+    <sede cod_sede="D4567891">
+        <direccion>Calle Calvario nº12</direccion>
+        <empleado_alta>Francisco Manuel Rodriguez Coronil</empleado_alta>
+        <fecha_alta>2023-01-23</fecha_alta>
+        <cliente cod_cliente="JKL-012">
+            <num_viviendas>1</num_viviendas>
+            <vivienda id="007">
+                <coste>125000</coste>
+                <resumen>Mansión en perfecto estado</resumen>
+                <plazos>2</plazos>           
+            </vivienda>
+            <descripcion_cliente>Solvente</descripcion_cliente>
+        </cliente>
+    </sede>
+
+    <sede cod_sede="F2345678">
+        <direccion>Calle Falsa nº12</direccion>
+        <empleado_alta>Manuel Prado Gallardo</empleado_alta>
+        <fecha_alta>2020-02-02</fecha_alta>
+        <cliente cod_cliente="MNP-345">
+            <num_viviendas>2</num_viviendas>
+            <vivienda id="008">
+                <coste>27800</coste>
+                <resumen>Buen estado</resumen>
+                <plazos>4</plazos>
+            </vivienda>
+            <vivienda id="009">
+                <coste>4800</coste>
+                <resumen>Estado regular</resumen>
+                <plazos>2</plazos>
+            </vivienda>
+            <descripcion_cliente>Insolvente</descripcion_cliente>
+        </cliente>
+    </sede>
+</clientes>
