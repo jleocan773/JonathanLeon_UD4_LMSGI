@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE practicas SYSTEM "MejoraPracticas.dtd">
+
+<practicas>
+
+    <alumno>
+        <nombre>Jose Juan</nombre>
+        <apellidos>Zaragoza Conde</apellidos>
+        <curso></curso>
+        <nif>72778343H</nif>
+        <notas>
+            <LMSGI>10</LMSGI> 
+            <BBDD>10</BBDD> 
+            <SIINF>10</SIINF> 
+            <PROG>10</PROG> 
+            <ED>10</ED> 
+            <FOL>10</FOL>
+        </notas>
+        <resultado>Apto</resultado>
+        <observaciones>
+            <anhos>18</anhos>
+            <poblacion>Ubrique</poblacion>
+        </observaciones>
+        <ip>79.155.209.116</ip>
+    </alumno>
+
+    <alumno>
+        <nombre>Victor Verdejo Castilla</nombre>
+        <apellidos>Faustino Manzano Cadenas</apellidos>
+        <curso></curso>
+        <nif>71559009Y</nif>
+        <notas>
+            <LMSGI>4</LMSGI> 
+            <BBDD>7</BBDD> 
+            <SIINF>7</SIINF> 
+            <PROG>6</PROG> 
+            <ED>5</ED> 
+            <FOL>8</FOL>
+        </notas>
+        <resultado>No Apto</resultado>
+        <mac>24:6f:f3:da:2b:6a</mac>
+    </alumno>
+
+    <alumno>
+        <nombre>Haroldo Manu </nombre>
+        <apellidos>Tur Tirado</apellidos>
+        <curso></curso>
+        <nif>77078496E</nif>
+        <notas>
+            <LMSGI>8</LMSGI> 
+            <BBDD>9</BBDD> 
+            <SIINF>4</SIINF> 
+            <PROG>8</PROG> 
+            <ED>9</ED> 
+            <FOL>10</FOL>
+        </notas>
+        <resultado>No Apto</resultado>
+        <mac>01:be:7a:dc:12:6a</mac>
+    </alumno>
+
+    <alumno>
+        <nombre>Paulina </nombre>
+        <apellidos>Rosa Lozano</apellidos>
+        <curso></curso>
+        <nif>76091638W</nif>
+        <notas>
+            <LMSGI>5</LMSGI> 
+            <BBDD>7</BBDD> 
+            <SIINF>8</SIINF> 
+            <PROG>5</PROG> 
+            <ED>6</ED> 
+            <FOL>6</FOL></notas>
+        <resultado>Apto</resultado>
+        <observaciones>
+            <anhos>20</anhos>
+            <poblacion>Jerez de la Frontera</poblacion>
+        </observaciones>
+        <ip>93.21.57.100</ip>
+    </alumno>
+
+    <alumno>
+        <nombre>Jacobo </nombre>
+        <apellidos>Riera Ledesma</apellidos>
+        <curso></curso>
+        <nif>84506298C</nif>
+        <notas>
+            <LMSGI>10</LMSGI> 
+            <BBDD>10</BBDD> 
+            <SIINF>8</SIINF> 
+            <PROG>7</PROG> 
+            <ED>9</ED> 
+            <FOL>9</FOL> 
+        </notas>
+        <resultado>Apto</resultado>
+        <observaciones>
+            <anhos>23</anhos>
+            <poblacion>El Bosque</poblacion>
+        </observaciones>
+        <ip>160.210.73.89</ip>
+    </alumno>
+
+</practicas>

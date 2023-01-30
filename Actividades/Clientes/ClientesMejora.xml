@@ -1,99 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE clientes SYSTEM "ClientesMejora.dtd">
-
 <clientes>
-    <sede cod_sede="A1234567">
+    <sede codigo="A0000001">
         <direccion>Ubrique (Cádiz) Calle Calvario nº12</direccion>
         <empleado_alta>Francisco Gutierrez Hernández</empleado_alta>
         <fecha_alta>2023-01-23</fecha_alta>
-        <cliente cod_cliente="ABC-123">
-            <num_viviendas>1</num_viviendas>
-            <vivienda id="001">
-                <coste>2500</coste>
+        <cliente codigo="ABC-123">
+            <descripcion>solvente</descripcion>
+            <num_viviendas>2</num_viviendas>
+            <vivienda ID="001">
+                <coste>97500</coste>
                 <resumen>Casa en muy buen estado</resumen>
-                <plazos>2</plazos>
+                <plazos>4</plazos>
             </vivienda>
-            <descripcion_cliente>Solvente</descripcion_cliente>
-    </cliente>
+            <vivienda ID="002">
+                <coste>97500</coste>
+                <resumen>Casa Estado Aceptable</resumen>
+                <plazos>4</plazos>
+            </vivienda>
+        </cliente>
+        <cliente codigo="DEF-456">
+            <descripcion>solvente</descripcion>
+            <num_viviendas>1</num_viviendas>
+            <vivienda ID="001">
+                <coste>55000</coste>
+                <resumen>Piso nueva construcción</resumen>
+                <plazos>12</plazos>
+            </vivienda>
+        </cliente>
+        <cliente codigo="GHI-789">
+            <descripcion>insolvente</descripcion>
+            <num_viviendas>3</num_viviendas>
+            <vivienda ID="001">
+                <coste>61666</coste>
+                <resumen>Parcelas en muy buen estado</resumen>
+                <plazos>8</plazos>
+            </vivienda>
+            <vivienda ID="002">
+                <coste>61666</coste>
+                <resumen>Parcelas en muy buen estado</resumen>
+                <plazos>8</plazos>
+            </vivienda>
+            <vivienda ID="003">
+                <coste>61666</coste>
+                <resumen>Parcelas en muy buen estado</resumen>
+                <plazos>8</plazos>
+            </vivienda>
+        </cliente>
     </sede>
-
-    <sede cod_sede="B8912345">
+    <sede codigo="A0000002">
         <direccion>Valladolid (Valladolid) Avenida de Gijón nº27</direccion>
         <empleado_alta>María del Mar Gutierrez Sanchez</empleado_alta>
         <fecha_alta>2021-02-11</fecha_alta>
-        <cliente cod_cliente="DEF-456">
-            <num_viviendas>3</num_viviendas>
-            <vivienda id="002">
-                <coste>35000</coste>
-                <resumen>1ªCasa: Buen Estado; </resumen>
-                <plazos>12</plazos>        
+        <cliente codigo="JKL-012">
+            <descripcion>solvente</descripcion>
+            <num_viviendas>5</num_viviendas>
+            <vivienda ID="001">
+                <coste>109000</coste>
+                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+                <plazos>5</plazos>
             </vivienda>
-            <vivienda id="003">
-                <coste>5000</coste>
-                <resumen>2ªCasa: Estado Aceptable</resumen>
-                <plazos>1</plazos>        
+            <vivienda ID="002">
+                <coste>109000</coste>
+                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+                <plazos>5</plazos>
             </vivienda>
-            <vivienda id="004">
-                <coste>12000</coste>
-                <resumen>3ªCasa: Estado Impecable</resumen>
-                <plazos>1</plazos>        
+            <vivienda ID="003">
+                <coste>109000</coste>
+                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+                <plazos>5</plazos>
             </vivienda>
-            <descripcion_cliente>Insolvente</descripcion_cliente>
+            <vivienda ID="004">
+                <coste>109000</coste>
+                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+                <plazos>5</plazos>
+            </vivienda>
+            <vivienda ID="005">
+                <coste>109000</coste>
+                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
+                <plazos>5</plazos>
+            </vivienda>
         </cliente>
-    </sede>
-
-    <sede cod_sede="C6789123">
-        <direccion>Ronda (Cádiz) Calle la Bola nº 11</direccion>
-        <empleado_alta>Jose Luis Pérez Coronil</empleado_alta>
-        <fecha_alta>2020-07-29</fecha_alta>
-        <cliente cod_cliente="GHI-789">
+        <cliente codigo="MNO-345">
+            <descripcion>insolvente</descripcion>
             <num_viviendas>2</num_viviendas>
-            <vivienda id="005">
-                <coste>150000</coste>
-                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
-                <plazos>9</plazos>
-            </vivienda>
-            <vivienda id="006">
-                <coste>95000</coste>
-                <resumen>Este señor es rico y todas sus casas son enormes y están en estado impecable</resumen>
-                <plazos>4</plazos>
-            </vivienda>
-            <descripcion_cliente>Solvente</descripcion_cliente>
-        </cliente>
-    </sede>
-
-    <sede cod_sede="D4567891">
-        <direccion>Calle Calvario nº12</direccion>
-        <empleado_alta>Francisco Manuel Rodriguez Coronil</empleado_alta>
-        <fecha_alta>2023-01-23</fecha_alta>
-        <cliente cod_cliente="JKL-012">
-            <num_viviendas>1</num_viviendas>
-            <vivienda id="007">
-                <coste>125000</coste>
+            <vivienda ID="001">
+                <coste>110000</coste>
                 <resumen>Mansión en perfecto estado</resumen>
-                <plazos>2</plazos>           
-            </vivienda>
-            <descripcion_cliente>Solvente</descripcion_cliente>
-        </cliente>
-    </sede>
-
-    <sede cod_sede="F2345678">
-        <direccion>Calle Falsa nº12</direccion>
-        <empleado_alta>Manuel Prado Gallardo</empleado_alta>
-        <fecha_alta>2020-02-02</fecha_alta>
-        <cliente cod_cliente="MNP-345">
-            <num_viviendas>2</num_viviendas>
-            <vivienda id="008">
-                <coste>27800</coste>
-                <resumen>Buen estado</resumen>
-                <plazos>4</plazos>
-            </vivienda>
-            <vivienda id="009">
-                <coste>4800</coste>
-                <resumen>Estado regular</resumen>
                 <plazos>2</plazos>
             </vivienda>
-            <descripcion_cliente>Insolvente</descripcion_cliente>
+            <vivienda ID="002">
+                <coste>110000</coste>
+                <resumen>Mansión en perfecto estado</resumen>
+                <plazos>2</plazos>
+            </vivienda>
+        </cliente>
+        <cliente codigo="PQR-678">
+            <descripcion>solvente</descripcion>
+            <num_viviendas>6</num_viviendas>
+            <vivienda ID="001">
+                <coste>80833</coste>
+                <resumen>Pisos en la Avenida Central</resumen>
+                <plazos>10</plazos>
+            </vivienda>
+            <vivienda ID="002">
+                <coste>80833</coste>
+                <resumen>Pisos en la Avenida Central</resumen>
+                <plazos>10</plazos>
+            </vivienda>
+            <vivienda ID="003">
+                <coste>80833</coste>
+                <resumen>Pisos en la Avenida Central</resumen>
+                <plazos>10</plazos>
+            </vivienda>
+            <vivienda ID="004">
+                <coste>80833</coste>
+                <resumen>Pisos en la Avenida Central</resumen>
+                <plazos>10</plazos>
+            </vivienda>
+            <vivienda ID="005">
+                <coste>80833</coste>
+                <resumen>Pisos en la Avenida Central</resumen>
+                <plazos>10</plazos>
+            </vivienda>
+            <vivienda ID="006">
+                <coste>80833</coste>
+                <resumen>Pisos en la Avenida Central</resumen>
+                <plazos>10</plazos>
+            </vivienda>
         </cliente>
     </sede>
 </clientes>

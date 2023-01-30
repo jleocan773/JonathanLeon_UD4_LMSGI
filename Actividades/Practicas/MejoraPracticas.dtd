@@ -1,0 +1,19 @@
+<!ELEMENT practicas (alumno*)>
+    <!ELEMENT alumno (nombre, apellidos, curso, nif, notas*, resultado, observaciones*, (ip|mac))>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT curso (#PCDATA)>
+    <!ELEMENT nif (#PCDATA)>
+    <!ELEMENT notas (LMSGI, BBDD, SIINF, PROG, ED, FOL)>
+    <!ELEMENT LMSGI (#PCDATA)>
+    <!ELEMENT BBDD (#PCDATA)>
+    <!ELEMENT SIINF (#PCDATA)>
+    <!ELEMENT PROG (#PCDATA)>
+    <!ELEMENT ED (#PCDATA)>
+    <!ELEMENT FOL (#PCDATA)>
+    <!ELEMENT resultado (#PCDATA)>
+    <!ELEMENT observaciones (anhos, poblacion)>
+        <!ELEMENT anhos (#PCDATA)>
+        <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT ip (#PCDATA)>
+    <!ELEMENT mac (#PCDATA)>

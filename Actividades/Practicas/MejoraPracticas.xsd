@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="practicas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="alumno" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="alumno">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre" />
+				<xs:element ref="apellidos" />
+				<xs:element ref="curso" />
+				<xs:element ref="nif" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="notas" />
+				<xs:element name="resultado">
+					<xs:simpleType>
+						<xs:restriction base = "xs:string">
+						<xs:enumeration value = "Apto"/>
+						<xs:enumeration value = "No Apto"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="observaciones" />
+				<xs:choice>
+					<xs:element ref="ip" />
+					<xs:element ref="mac" />
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre" type="xs:string" />
+	<xs:element name="apellidos" type="xs:string" />
+	<xs:element name="curso" type="xs:string" />
+	<xs:element name="nif" type="xs:string" />
+	<xs:element name="notas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="LMSGI" />
+				<xs:element ref="BBDD" />
+				<xs:element ref="SIINF" />
+				<xs:element ref="PROG" />
+				<xs:element ref="ED" />
+				<xs:element ref="FOL" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="LMSGI" type="xs:string" />
+	<xs:element name="BBDD" type="xs:string" />
+	<xs:element name="SIINF" type="xs:string" />
+	<xs:element name="PROG" type="xs:string" />
+	<xs:element name="ED" type="xs:string" />
+	<xs:element name="FOL" type="xs:string" />
+	<xs:element name="resultado" type="xs:string" />
+	<xs:element name="observaciones">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="anhos" />
+				<xs:element ref="poblacion" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="anhos" type="xs:string" />
+	<xs:element name="poblacion" type="xs:string" />
+	<xs:element name="ip" type="xs:string" />
+	<xs:element name="mac" type="xs:string" />
+</xs:schema>

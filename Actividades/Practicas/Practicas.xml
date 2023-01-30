@@ -15,13 +15,13 @@
 
     <alumno>
         <nif>71559009Y</nif>
-        <resultado>Apto</resultado>
+        <resultado>No Apto</resultado>
         <mac>24:6f:f3:da:2b:6a</mac>
     </alumno>
 
     <alumno>
         <nif>77078496E</nif>
-        <resultado>No apto</resultado>
+        <resultado>No Apto</resultado>
         <mac>01:be:7a:dc:12:6a</mac>
     </alumno>
 
@@ -37,7 +37,7 @@
 
     <alumno>
         <nif>84506298C</nif>
-        <resultado>No apto</resultado>
+        <resultado>Apto</resultado>
         <observaciones>
             <anhos>23</anhos>
             <poblacion>El Bosque</poblacion>
