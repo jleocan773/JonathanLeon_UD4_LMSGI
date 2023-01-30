@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="DAW">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="modulos" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="modulos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="modulo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="modulo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre_modulo" />
+				<xs:element ref="profesor" />
+				<xs:element ref="horas_totales" />
+				<xs:element ref="contenidos" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre_modulo" type="xs:string" />
+	<xs:element name="profesor" type="xs:string" />
+	<xs:element name="horas_totales" type="xs:string" />
+	<xs:element name="contenidos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="unidades_didacticas" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="unidades_didacticas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre_unidad" />
+				<xs:element ref="num_unidad" />
+				<xs:element ref="tipo" />
+				<xs:element ref="descripcion" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre_unidad" type="xs:string" />
+	<xs:element name="num_unidad" type="xs:string" />
+	<xs:element name="tipo" type="xs:string" />
+	<xs:element name="descripcion" type="xs:string" />
+</xs:schema>

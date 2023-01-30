@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DAW SYSTEM "ModulosMejora.dtd.">
+<DAW>
+    <modulos>
+        <modulo>
+            <nombre_modulo>Lenguaje de Marcas y Sistemas de Gestión de Información</nombre_modulo>
+            <profesor>Ana Rosa González Jorge</profesor>
+            <horas_totales>133</horas_totales>
+            <contenidos>
+                <unidades_didacticas>
+                    <nombre_unidad>Introducción a los lenguajes de marcas</nombre_unidad>
+                    <num_unidad>UD1</num_unidad>
+                    <tipo>Introducción</tipo>
+                    <descripcion>Introducción del Módulo</descripcion>
+                </unidades_didacticas>
+                <unidades_didacticas>
+                    <nombre_unidad>Lenguajes para la visualización de información</nombre_unidad>
+                    <num_unidad>UD2</num_unidad>
+                    <tipo>Lenguajes</tipo>
+                    <descripcion>Primer contacto con los diferentes lenguajes usados para visualizar información</descripcion>
+                </unidades_didacticas>
+                <unidades_didacticas>
+                    <nombre_unidad>Lenguajes para el almacenamiento y transmisión de información</nombre_unidad>
+                    <num_unidad>UD3</num_unidad>
+                    <tipo>Lenguajes</tipo>
+                    <descripcion>Tipos de Lenguaje de transmisión y almacenamiento de información</descripcion>
+                </unidades_didacticas>
+            </contenidos>
+        </modulo>
+        <modulo>
+            <nombre_modulo>Sistemas Informáticos</nombre_modulo>
+            <profesor>Juan Carlos Romero Barea</profesor>
+            <horas_totales>186</horas_totales>
+            <contenidos>
+                <unidades_didacticas>
+                    <nombre_unidad>Introducción a los Sistemas Informáticos</nombre_unidad>
+                    <num_unidad>UD1</num_unidad>
+                    <tipo>Introducción</tipo>
+                    <descripcion>Introducción al Módulo</descripcion>
+                </unidades_didacticas>
+                <unidades_didacticas>
+                    <nombre_unidad>La Consola de Comandos</nombre_unidad>
+                    <num_unidad>UD2</num_unidad>
+                    <tipo>Consola</tipo>
+                    <descripcion>Comandos Básicos del Terminal</descripcion>
+                </unidades_didacticas>
+                <unidades_didacticas>
+                    <nombre_unidad>Scripts</nombre_unidad>
+                    <num_unidad>UD3</num_unidad>
+                    <tipo>Scripting</tipo>
+                    <descripcion>Realización de diferentes scripts de comandos</descripcion>
+                </unidades_didacticas>
+            </contenidos>
+        </modulo>
+        <modulo>
+            <nombre_modulo>Base de Datos</nombre_modulo>
+            <profesor>Juan Carlos Romero Jiménez</profesor>
+            <horas_totales>187</horas_totales>
+            <contenidos>
+                <unidades_didacticas>
+                    <nombre_unidad>Introducción a Base de Datos</nombre_unidad>
+                    <num_unidad>UD1</num_unidad>
+                    <tipo>Introducción</tipo>
+                    <descripcion>Introducción al concepto de Base de Datos</descripcion>
+                </unidades_didacticas>
+                <unidades_didacticas>
+                    <nombre_unidad> Almacenamiento de la Información </nombre_unidad>
+                    <num_unidad>UD2</num_unidad>
+                    <tipo>Modelos</tipo>
+                    <descripcion>Modelo Relacional de la Base de Datos</descripcion>
+                </unidades_didacticas>
+                <unidades_didacticas>
+                    <nombre_unidad>Modelo Entidad Relación</nombre_unidad>
+                    <num_unidad>UD3</num_unidad>
+                    <tipo>Modelos</tipo>
+                    <descripcion>Modelo Entidad Relacion de la Base de Datos</descripcion>
+                </unidades_didacticas>
+            </contenidos>
+        </modulo>
+   </modulos>     
+</DAW>

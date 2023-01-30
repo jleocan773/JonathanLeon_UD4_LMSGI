@@ -1,0 +1,12 @@
+<!ELEMENT DAW (modulos)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (nombre_modulo, profesor, horas_totales, contenidos)>
+<!ELEMENT nombre_modulo (#PCDATA)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT horas_totales (#PCDATA)>
+<!ELEMENT contenidos (unidades_didacticas+)>
+<!ELEMENT unidades_didacticas (nombre_unidad, num_unidad, tipo, descripcion)>
+<!ELEMENT nombre_unidad (#PCDATA)>
+<!ELEMENT num_unidad (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
