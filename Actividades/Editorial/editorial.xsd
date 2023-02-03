@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ediciones_aranda">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cabecera" />
+				<xs:element ref="tabla" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cabecera">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="titulo" />
+				<xs:element ref="contenido" />
+				<xs:element ref="descripcion" />
+				<xs:element ref="fecha" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="titulo" type="xs:string" />
+	<xs:element name="contenido" type="xs:string" />
+	<xs:element name="descripcion" type="xs:string" />
+	<xs:element name="fecha" type="xs:string" />
+	<xs:element name="tabla">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="region" />
+				<xs:element ref="trimestre" />
+				<xs:element ref="libros_vendidos" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="region">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="norte" />
+				<xs:element ref="centro" />
+				<xs:element ref="sur" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="norte">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="trim" />
+				<xs:element ref="lib" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="centro">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="trim" />
+				<xs:element ref="lib" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="sur">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="trim" />
+				<xs:element ref="lib" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="trim" type="xs:string" />
+	<xs:element name="lib" type="xs:string" />
+	<xs:element name="trimestre" type="xs:string" />
+	<xs:element name="libros_vendidos" type="xs:string" />
+</xs:schema>
